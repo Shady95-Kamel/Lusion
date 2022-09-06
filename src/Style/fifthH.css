@@ -1,0 +1,15 @@
+.fifthImages{
+    width:250px
+}
+
+@media only screen and (max-width: 576px) {
+  .fifthImages{
+    width:160px
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .fifthImages{
+        width:165px
+      }
+}

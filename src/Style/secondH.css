@@ -1,0 +1,10 @@
+@media only screen and (max-width: 576px) {
+    .secondImages{
+        width: 10pc;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .secondImages{
+        width: 12pc;
+    }
+}

@@ -1,0 +1,31 @@
+.shopLogo{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+.shopText::after{
+    content: " / Shop";
+    font-weight: bold;
+    color: black;
+}
+
+@media only screen and (max-width: 576px) {
+   .shopLogo{
+    width: 102%;
+    height: 37vh;
+   }
+   .firstShop{
+    margin-bottom: 20pc;
+   }
+}
+@media only screen and (max-width: 768px) {
+    .shopLogo{
+        width: 102%;
+        height: 50vh;
+       }
+       .firstShop{
+        margin-bottom: 20pc;
+       }
+}

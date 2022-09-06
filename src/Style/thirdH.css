@@ -1,0 +1,30 @@
+.thirdPage{
+    border: 1px solid;
+    height: 8pc;
+    width: 57px;
+    margin-top: 6pc;
+    margin-left: 2pc;
+}
+
+.textRotate{
+        transform: rotate(90deg);
+        margin-right: 20px;
+        font-weight: bold;      
+}
+.thirdCard{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+@media only screen and (max-width: 576px) {
+    .thirdCard{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .thirdCard{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

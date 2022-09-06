@@ -1,0 +1,34 @@
+.banner{
+    width: 70%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-color:#808080;
+}
+
+.secondBanner{
+    width: 250px;
+    height: 70vh;
+    background-color:#808080;
+}
+
+@media only screen and (max-width: 576px) {
+    .banner{
+        width: 50%;
+        height: 69vh;
+    }
+    .secondBanner{
+        width: 187px;
+        height: 69vh;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .banner{
+        width: 50%;
+        height: 70vh;
+    }
+    .secondBanner{
+        width: 187px;
+        height: 69vh;
+    }
+}

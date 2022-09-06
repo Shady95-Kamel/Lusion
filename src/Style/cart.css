@@ -1,0 +1,18 @@
+.cardSize{
+    height: 7pc;
+    display: flex;
+    justify-content: space-between;
+}
+.imgSize{
+    height: 6pc;
+    width: 7pc;
+    margin-top: -10px;
+}
+.Btn{
+    background-color: white;
+    border: none;
+    transition: 1s;
+}
+.Btn:hover{
+    transform: scale(1.25);
+}

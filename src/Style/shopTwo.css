@@ -1,0 +1,7 @@
+.cartBtn{
+    transition: 1s;
+}
+
+.cartBtn:hover{
+    transform: scale(1.25);
+}
