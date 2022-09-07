@@ -25,7 +25,7 @@ import DataContext from './DataContext';
                   <NavLink to="/Cart" href="#" style={{color:"black"}}>
                   <FontAwesomeIcon icon={faBasketShopping} size="lg" />
                   </NavLink>
-                  <span className='position-absolute badge rounded-pill bg-dark' style={{top:"20px"}} >{count}</span>
+                  <span className='count position-absolute badge rounded-pill bg-dark' style={{top:"20px"}} >{count}</span>
                   </div>
                   </div>
                   </div>

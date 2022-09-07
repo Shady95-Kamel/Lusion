@@ -7,6 +7,12 @@
     width:160px
   }
 }
+@media only screen and (max-width: 625px) {
+  .pose{
+      position: relative;
+      right: 20px;
+    }
+}
 
 @media only screen and (max-width: 515px) {
     .fifthImages{
