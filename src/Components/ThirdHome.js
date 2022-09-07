@@ -12,7 +12,7 @@ export default function ThirdHome(props) {
   }
   return (
     <Fragment>
-            <Card  className="mt-3 ms-5" style={{ width: '18rem' ,display:"inline-block", border:"0",}}>
+            <Card  className=" thirdInfo mt-3 ms-5" style={{ width: '18rem' ,display:"inline-block", border:"0",}}>
             <Card.Img variant="top" src={props.data.photo} />
             <Card.Body>
              <div className='row'>

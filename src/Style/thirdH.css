@@ -16,15 +16,108 @@
     flex-wrap: nowrap;
 }
 
-@media only screen and (max-width: 576px) {
+@media screen and (max-device-width:855px) {
     .thirdCard{
         display: flex;
         flex-wrap: wrap;
     }
+    .thirdPage{
+        position: relative;
+        bottom: 10pc;
+    }
+    .thirdInfo{
+        width: 15rem !important;
+    }
 }
-@media only screen and (max-width: 768px) {
+@media screen and (max-device-width:760px) {
     .thirdCard{
         display: flex;
         flex-wrap: wrap;
+    }
+    .thirdPage{
+        position: relative;
+        bottom: 10pc;
+    }
+    .thirdInfo{
+        width: 12rem !important;
+    }
+}
+@media screen and (max-device-width:664px) {
+    .thirdCard{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .thirdPage{
+        position: relative;
+        bottom: 10pc;
+    }
+    .thirdInfo{
+        width: 10rem !important;
+    }
+}
+@media screen and (max-device-width:600px) {
+    .thirdCard{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .thirdPage{
+        position: relative;
+        bottom: 10pc;
+    }
+    .thirdInfo{
+        width: 8rem !important;
+    }
+}
+@media screen and (max-device-width:536px) {
+    .thirdCard{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .thirdPage{
+        position: relative;
+        bottom: 36pc;
+    }
+    .thirdInfo{
+        width: 15rem !important;
+    }
+}
+@media screen and (max-device-width:472px) {
+    .thirdCard{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .thirdPage{
+        position: relative;
+        bottom: 32pc;
+    }
+    .thirdInfo{
+        width: 12rem !important;
+    }
+}
+@media screen and (max-device-width:424px) {
+    .thirdCard{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .thirdPage{
+        position: relative;
+        bottom: 30pc;
+    }
+    .thirdInfo{
+        width: 10rem !important;
+    }
+}
+@media screen and (max-device-width:392px) {
+    .thirdCard{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .thirdPage{
+        position: relative;
+        bottom: 62pc;
+        right: 4pc;
+    }
+    .thirdInfo{
+        width: 15rem !important;
     }
 }

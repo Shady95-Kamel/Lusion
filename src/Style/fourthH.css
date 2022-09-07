@@ -12,23 +12,71 @@
     background-color:#808080;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 1199px) {
     .banner{
-        width: 50%;
-        height: 69vh;
+        width: 70%;
+        height: 75vh;
     }
     .secondBanner{
         width: 187px;
-        height: 69vh;
+        height: 75vh;
     }
 }
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 991px) {
     .banner{
-        width: 50%;
-        height: 70vh;
+        width: 67%;
+        height: 73vh;
     }
     .secondBanner{
         width: 187px;
-        height: 69vh;
+        height: 73vh;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .banner{
+        width: 56%;
+        height: 73vh;
+    }
+    .secondBanner{
+        width: 187px;
+        height: 73vh;
+    }
+}
+
+@media only screen and (max-width: 534px) {
+    .banner{
+        width: 46%;
+        height: 73vh;
+    }
+    .secondBanner{
+        width: 187px;
+        height: 73vh;
+    }
+}
+
+@media only screen and (max-width: 534px) {
+    .banner{
+        width: 46%;
+        height: 73vh;
+    }
+    .secondBanner{
+        width: 187px;
+        height: 73vh;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .banner{
+        width: 100%;
+        height: 73vh;
+    }
+    .secondBanner{
+        position: relative;
+    top: 20px;
+    left: 95px;
+    width: 182px;
+    height: 43vh;
     }
 }

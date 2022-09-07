@@ -12,7 +12,7 @@ function SecondShop() {
       {({shopData,addToCart})=>(
             <div className='container' >
             {shopData.map(e=>(
-            <Card  className="mt-5 ms-4" key={e.id} style={{ width: '18rem' ,display:"inline-block", border:"0",}}>
+            <Card  className="cardWidth mt-5 ms-4" key={e.id} style={{ width: '18rem' ,display:"inline-block", border:"0",}}>
               <Card.Img variant="top" src={e.photo} />
                   <Card.Body>
                     <div className='row'>

@@ -2,14 +2,30 @@
     width:250px
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 991px) {
   .fifthImages{
     width:160px
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 515px) {
     .fifthImages{
-        width:165px
+        width:140px
       }
 }
+@media only screen and (max-width: 455px) {
+  .fifthImages{
+      width:120px
+    }
+}
+@media only screen and (max-width: 395px) {
+  .fifthImages{
+      width:100px
+    }
+}
+@media only screen and (max-width: 335px) {
+  .fifthImages{
+      width:90px
+    }
+}
+

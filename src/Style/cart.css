@@ -16,3 +16,19 @@
 .Btn:hover{
     transform: scale(1.25);
 }
+
+@media screen and (max-device-width: 660px) {
+    .imgSize{
+        width: 5pc;
+    }
+}
+@media screen and (max-device-width: 550px) {
+    .imgSize{
+        width: 3pc;
+    }
+}
+@media screen and (max-device-width: 402px) {
+    .imgSize{
+        width: 2pc;
+    }
+}
