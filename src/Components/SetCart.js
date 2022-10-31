@@ -5,7 +5,7 @@ import DataContext from './DataContext'
 function SetCart() {
   return (
     <DataContext.Consumer>
-      {({cart,inc,dec,del})=>(
+      {({cart,inc,dec,del,totalCartPrice})=>(
         <Fragment>
         {cart.length === 0?(
              <h1 bg="danger" className="text-center text-danger mt-5">
@@ -20,7 +20,7 @@ function SetCart() {
             data={e} 
             inc={inc}
             dec={dec}
-            del={del} />
+            del={del}/>
         ))}
     </Fragment>
       )}

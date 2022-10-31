@@ -5,31 +5,3 @@
 .cartBtn:hover{
     transform: scale(1.25);
 }
-
-@media screen and (max-device-width:1309px) {
-    .cardWidth{
-        width: 21rem !important;
-    }
-}
-
-@media screen and (max-device-width: 1199px) {
-    .cardWidth{
-        width: 18rem !important;
-    }
-}
-
-@media screen and (max-device-width: 767px) {
-    .cardWidth{
-        width: 13rem !important;
-    }
-}
-@media screen and (max-device-width: 487px) {
-    .cardWidth{
-        width: 11rem !important;
-    }
-}
-@media screen and (max-device-width: 423px) {
-    .cardWidth{
-        width: 21rem !important;
-    }
-}

@@ -10,10 +10,10 @@ function SecondHome() {
     <Fragment>
       <DataContext.Consumer>
         {({secondInfo,thirdInfo})=>(
-          <div className="mt-5 ms-5">
+          <div className="container mt-5 ms-5">
           {secondInfo.map(e=>(
-              <div key={e.id} style={{display:"inline-block"}} >
-              <img className='secondImages' src={e.photo} alt="Logo" ></img>
+              <div key={e.id} style={{display:"inline-block"}}>
+              <img className='secondImages' src={e.photo} alt="Logo" style={{width:"15.5pc"}} ></img>
               <h1 className='fw-bold'>{e.type}</h1>
               <h3>items {e.items}</h3>
             </div>  

@@ -114,10 +114,32 @@
     }
     .thirdPage{
         position: relative;
-        bottom: 62pc;
-        right: 4pc;
+        bottom: 50pc;
+        right: 6pc;
     }
     .thirdInfo{
-        width: 15rem !important;
+        width: 10rem !important;
+    }
+}
+@media screen and (max-device-width:391px) {
+    .thirdCard{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .thirdPage{
+        position: relative;
+        bottom: 30pc;
+        right: 17pc;
+    }
+}
+@media screen and (max-device-width:368px) {
+    .thirdCard{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .thirdPage{
+        position: relative;
+        bottom: 50pc;
+        right: 5pc;
     }
 }

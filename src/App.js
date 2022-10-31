@@ -71,6 +71,8 @@ function App() {
   const [cart,setCart]=useState([])
   //Counting in Nav
   const [count,setCount]=useState(0);
+  // TotalAmount Cart
+  const[totalCartPrice,setTotalCartPrice]=useState([]);
   // add to cart func
   function addToCart(id){
     //clone
@@ -90,7 +92,8 @@ function App() {
     //update
     setShop(data)
     setCount(cart.length)
-    console.log(cart);
+    setTotalCartPrice([totalAmount()])
+    // console.log(cart);
   }
 
   function del(id){
@@ -99,7 +102,6 @@ function App() {
      return e.id!==id;
     })
     setCount(count-1)
-    console.log(deletes);
     setCart(deletes)
   }
 
@@ -109,6 +111,7 @@ function App() {
     add=add.map(e=>{
       if(id===e.id){
         e.buyQty++;
+      totalPriceInc(e.price)
       }
       return e
     })
@@ -123,13 +126,38 @@ function App() {
       if(id===e.id){
         if(e.buyQty>0){
           e.buyQty--
+          totalPriceDec(e.price)
         }
       }
       return e
     })
     setCart(minus)
   }
-  
+
+// Total Amount Price in Cart
+  function totalAmount(){
+    let total=cart;
+    if(cart.length!==0){
+      total=total.map(e=>{
+        return e.price
+        }).reduce((a,el)=>{
+          return a+el
+        },0)
+    }
+      return total
+  }
+  // console.log(totalAmount());
+
+  function totalPriceInc(price){
+    let result=price+price;
+    return result
+  }
+
+  function totalPriceDec(price){
+    let result=price-price;
+    return result
+  }
+
   return (
   <Fragment>
     <DataContext.Provider
@@ -140,10 +168,11 @@ function App() {
       shopData:shopData,
       cart:cart,
       count:count,
+      totalCartPrice:totalCartPrice,
       addToCart:addToCart,
       inc:increment,
       dec:decrement,
-      del:del
+      del:del,
     }}
     >
 

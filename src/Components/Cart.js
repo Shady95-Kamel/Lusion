@@ -7,7 +7,7 @@ import { faMinus } from "@fortawesome/free-solid-svg-icons";
 import '../Style/cart.css'
 
 function Cart(props) {
-  console.log(props.data);
+  // console.log(props.data);
   return (
     <Fragment>
              <Card className='mt-3'>

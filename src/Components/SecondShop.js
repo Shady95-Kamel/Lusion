@@ -10,7 +10,7 @@ function SecondShop() {
   return (
     <DataContext.Consumer>
       {({shopData,addToCart})=>(
-            <div className='container' >
+        <div className='container'>
             {shopData.map(e=>(
             <Card  className="cardWidth mt-5 ms-4" key={e.id} style={{ width: '18rem' ,display:"inline-block", border:"0",}}>
               <Card.Img variant="top" src={e.photo} />
@@ -31,7 +31,7 @@ function SecondShop() {
                   </Card.Body>
              </Card>
             ))}
-        </div>
+            </div>
       )}
     </DataContext.Consumer>
   )

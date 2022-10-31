@@ -11,6 +11,7 @@ const DataContext=createContext({
     inc:"",
     dec:"",
     del:"",
+    totalCartPrice:"",
 })
 
 export default DataContext
